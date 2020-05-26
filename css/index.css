@@ -135,17 +135,27 @@ h2 {
 h3 {
   font-size: 1.1rem;
 }
+::selection {
+  background: lightblue;
+}
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
   min-height: 7vh;
   box-shadow: 3px 3px 3px #dfdede;
   font-family: 'Roboto Mono', monospace;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav a {
   color: black;
   padding-right: 3rem;
+}
+nav a:hover {
+  color: #ec3944;
 }
 .main-container {
   display: flex;
@@ -155,6 +165,7 @@ nav a {
 .main-container .text-container {
   font-family: 'Sorts Mill Goudy', serif;
   padding-right: 10%;
+  padding-top: 8%;
   max-width: 20%;
   font-size: 1.5rem;
 }
@@ -185,4 +196,12 @@ nav a {
 }
 .info-container .features-text h2 {
   font-size: 2rem;
+}
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+  padding-bottom: 1%;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
