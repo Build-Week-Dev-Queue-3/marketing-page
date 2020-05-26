@@ -1,0 +1,188 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  box-shadow: 3px 3px 3px #dfdede;
+  font-family: 'Roboto Mono', monospace;
+}
+nav a {
+  color: black;
+  padding-right: 3rem;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.main-container .text-container {
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-right: 10%;
+  max-width: 20%;
+  font-size: 1.5rem;
+}
+.main-container .text-container button {
+  border: none;
+  background-color: #007AFF;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-right: 25%;
+}
+.info-container .features-text {
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-left: 20%;
+  padding-top: 10%;
+  max-width: 20%;
+  font-size: 1.4rem;
+}
+.info-container .features-text h2 {
+  font-size: 2rem;
+}
