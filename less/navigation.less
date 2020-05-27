@@ -9,13 +9,15 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    @media @phone {
-        max-width: 100%;
-    }
+    
     
     a{
         color: black;
         padding-right: 3rem;
+        @media @phone {
+            padding-right: 0rem;
+            margin-right: 1rem;
+        }
         &:hover{
             color: #ec3944;
         }

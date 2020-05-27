@@ -150,14 +150,15 @@ nav {
   top: 0;
   width: 100%;
 }
-@media (max-width: 500px) {
-  nav {
-    max-width: 100%;
-  }
-}
 nav a {
   color: black;
   padding-right: 3rem;
+}
+@media (max-width: 500px) {
+  nav a {
+    padding-right: 0rem;
+    margin-right: 1rem;
+  }
 }
 nav a:hover {
   color: #ec3944;
@@ -167,12 +168,24 @@ nav a:hover {
   justify-content: center;
   margin-top: 10%;
 }
+@media (max-width: 500px) {
+  .main-container {
+    flex-flow: column;
+  }
+}
 .main-container .text-container {
   font-family: 'Open Sans', sans-serif;
   padding-right: 10%;
   padding-top: 8%;
   max-width: 20%;
   font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .main-container .text-container {
+    max-width: 100%;
+    padding-right: 0;
+    margin-left: 30%;
+  }
 }
 .main-container .text-container button {
   border: none;
@@ -186,11 +199,22 @@ nav a:hover {
   margin-top: 20%;
   margin-left: 20%;
 }
+@media (max-width: 500px) {
+  .main-container .text-container button {
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+}
 .info-container {
   display: flex;
   justify-content: center;
   margin-top: 10%;
   margin-right: 25%;
+}
+@media (max-width: 500px) {
+  .info-container {
+    flex-flow: column;
+  }
 }
 .info-container .features-text {
   font-family: 'Open Sans', sans-serif;
@@ -198,6 +222,13 @@ nav a:hover {
   padding-top: 10%;
   max-width: 20%;
   font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  .info-container .features-text {
+    max-width: 100%;
+    margin-left: 20%;
+    padding-right: 0;
+  }
 }
 .info-container .features-text h2 {
   font-size: 2rem;
@@ -213,6 +244,7 @@ footer {
 @media (max-width: 500px) {
   footer {
     margin-top: 5%;
+    margin-left: 30%;
   }
 }
 .title-h1 {
