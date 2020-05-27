@@ -1,0 +1,102 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    @media @phone {
+        flex-flow: column;
+    }
+    .text-container{
+        font-family: 'Open Sans', sans-serif;
+        padding-right: 10%;
+        padding-top: 8%;
+        max-width: 20%;
+        font-size: 1.5rem;
+        @media @phone {
+            max-width: 100%;
+            padding-right: 0;
+            margin-left: 30%;
+        }
+        button{
+            border: none;
+            background-color: #007AFF;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20%;
+            margin-left: 20%;
+            @media @phone {
+                margin-left: 20%;
+                margin-bottom: 5%;
+            }
+        }
+      
+    }
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 25%;
+    max-width: 100%;
+    height: auto;
+    @media @phone {
+        flex-flow: column;
+    }
+    .features-text{
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 20%;
+        padding-top: 10%;
+        max-width: 20%;
+        font-size: 1.4rem;
+        @media @phone {
+           max-width: 100%;
+           margin-left: 20%;
+           padding-right: 0;
+           
+        }
+        h2{
+            font-size: 2rem;
+        }
+      
+    }
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 1%;
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.title-h1{
+    margin-top: 10%;
+    margin-left: 45%;
+   @media @phone{
+       margin-top: 15%;
+       margin-right: 40%;
+       text-align: center;
+   }
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 60%;
+    padding-left: 23%;
+    .team-member{
+        margin-top: 5%;
+        p{
+            max-width: 50%;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    min-height: 7vh;
+    box-shadow: 3px 3px 3px rgb(223, 222, 222);
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    a{
+        color: black;
+        padding-right: 3rem;
+        @media @phone {
+            padding-right: 0rem;
+            margin-right: 1rem;
+        }
+        &:hover{
+            color: #ec3944;
+        }
+    }
+    
+}
