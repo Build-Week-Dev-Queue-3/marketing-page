@@ -184,7 +184,7 @@ nav a:hover {
   .main-container .text-container {
     max-width: 100%;
     padding-right: 0;
-    margin-left: 30%;
+    margin-left: 20%;
   }
 }
 .main-container .text-container button {
@@ -198,11 +198,18 @@ nav a:hover {
   font-size: 16px;
   margin-top: 20%;
   margin-left: 20%;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .main-container .text-container button {
     margin-left: 20%;
     margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .main-container .img-container img {
+    max-width: 65%;
+    margin-left: 18%;
   }
 }
 .info-container {
@@ -230,10 +237,17 @@ nav a:hover {
     max-width: 100%;
     margin-left: 20%;
     padding-right: 0;
+    margin-bottom: 5%;
   }
 }
 .info-container .features-text h2 {
   font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .info-container .info-pic img {
+    max-width: 90%;
+    margin-left: 20%;
+  }
 }
 footer {
   background-color: white;
@@ -246,7 +260,7 @@ footer {
   height: auto;
 }
 .title-h1 {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 45%;
 }
 @media (max-width: 500px) {
@@ -262,6 +276,11 @@ footer {
   flex-flow: row wrap;
   max-width: 60%;
   padding-left: 23%;
+}
+@media (max-width: 500px) {
+  .about-container {
+    margin-bottom: 5%;
+  }
 }
 .about-container .team-member {
   margin-top: 5%;
