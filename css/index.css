@@ -288,16 +288,6 @@ nav a:hover {
     margin-left: 20%;
   }
 }
-footer {
-  background-color: white;
-  text-align: center;
-  padding: 2%;
-  padding-bottom: 1%;
-  position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  max-width: 100%;
-  height: auto;
-}
 .title-h1 {
   margin-top: 5%;
   margin-left: 45%;
@@ -351,4 +341,14 @@ footer {
 }
 .about-container .team-member2 P {
   max-width: 50%;
+}
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+  padding-bottom: 1%;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  max-width: 100%;
+  height: auto;
 }
