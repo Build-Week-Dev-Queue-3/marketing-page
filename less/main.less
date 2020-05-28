@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    @media @tablet {
+        flex-flow: column;
+    }
     @media @phone {
         flex-flow: column;
     }
@@ -11,10 +14,14 @@
         padding-top: 8%;
         max-width: 20%;
         font-size: 1.5rem;
-        @media @phone {
+        @media @tablet {
             max-width: 100%;
+            margin-left: 10%;
+        }
+        @media @phone {
+            max-width: 80%;
             padding-right: 0;
-            margin-left: 20%;
+            margin-left: 15%;
         }
         button{
             border: none;
@@ -28,8 +35,12 @@
             margin-top: 20%;
             margin-left: 20%;
             cursor: pointer;
+            @media @tablet {
+                margin-left: 38%;
+                margin-bottom: 5%;
+            }
             @media @phone {
-                margin-left: 20%;
+                margin-left: 23%;
                 margin-bottom: 5%;
             }
           
@@ -38,6 +49,9 @@
     }
     .img-container {
         img{
+            @media @tablet {
+                margin-left: 5%;
+            }
             @media @phone {
                 max-width: 65%;
                 margin-left: 18%;
@@ -53,8 +67,11 @@
     margin-right: 25%;
     max-width: 100%;
     height: auto;
+    @media @tablet {
+        flex-direction: column-reverse;
+    }
     @media @phone {
-        flex-flow: column;
+        flex-direction: column-reverse;
     }
     .features-text{
         font-family: 'Open Sans', sans-serif;
@@ -62,9 +79,14 @@
         padding-top: 10%;
         max-width: 20%;
         font-size: 1.4rem;
+        @media @tablet {
+            max-width: 100%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        }
         @media @phone {
            max-width: 100%;
-           margin-left: 20%;
+           margin-left: 15%;
            padding-right: 0;
            margin-bottom: 5%;
            
@@ -76,6 +98,9 @@
     }
     .info-pic {
         img{
+            @media @tablet {
+                margin-left: 5%;
+            }
             @media @phone {
                 max-width: 90%;
                 margin-left: 20%;
@@ -99,6 +124,10 @@ footer{
 .title-h1{
     margin-top: 5%;
     margin-left: 45%;
+    @media @tablet {
+        margin-top: 10%;
+        margin-left: 38%;
+    }
    @media @phone{
        margin-top: 15%;
        margin-right: 40%;
@@ -110,14 +139,29 @@ footer{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    max-width: 60%;
+    max-width: 68%;
     padding-left: 23%;
+    margin-bottom: 5%;
+    @media @tablet {
+        margin-left: 5%;
+    }
     @media @phone {
         margin-bottom: 5%;
     }
     .team-member{
         margin-top: 5%;
+        margin-left: 1%;
+        @media @tablet {
+            margin-left: 5%;
+        }
         p{
+            max-width: 50%;
+        }
+    }
+    .team-member2 {
+        margin-top: 3%;
+        margin-right: 2%;
+        P {
             max-width: 50%;
         }
     }
