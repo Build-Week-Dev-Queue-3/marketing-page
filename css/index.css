@@ -138,6 +138,12 @@ h3 {
 ::selection {
   background: lightblue;
 }
+.flex-key {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+@breakpoint (max-width: 900px);
 nav {
   display: flex;
   justify-content: space-around;
@@ -166,6 +172,7 @@ nav a:hover {
 .main-container {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin-top: 10%;
 }
 @media (max-width: 800px) {
@@ -237,6 +244,7 @@ nav a:hover {
 .info-container {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin-top: 10%;
   margin-right: 25%;
   max-width: 100%;
