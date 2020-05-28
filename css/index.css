@@ -193,7 +193,7 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   .main-container .text-container {
-    max-width: 100%;
+    max-width: 80%;
     padding-right: 0;
     margin-left: 15%;
   }
@@ -219,7 +219,7 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   .main-container .text-container button {
-    margin-left: 20%;
+    margin-left: 23%;
     margin-bottom: 5%;
   }
 }
@@ -269,7 +269,7 @@ nav a:hover {
 @media (max-width: 500px) {
   .info-container .features-text {
     max-width: 100%;
-    margin-left: 20%;
+    margin-left: 15%;
     padding-right: 0;
     margin-bottom: 5%;
   }
