@@ -138,6 +138,12 @@ h3 {
 ::selection {
   background: lightblue;
 }
+.flex-key {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+@breakpoint (max-width: 900px);
 nav {
   display: flex;
   justify-content: space-around;
@@ -166,6 +172,7 @@ nav a:hover {
 .main-container {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin-top: 10%;
 }
 @media (max-width: 800px) {
@@ -237,6 +244,7 @@ nav a:hover {
 .info-container {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin-top: 10%;
   margin-right: 25%;
   max-width: 100%;
@@ -287,16 +295,6 @@ nav a:hover {
     max-width: 90%;
     margin-left: 20%;
   }
-}
-footer {
-  background-color: white;
-  text-align: center;
-  padding: 2%;
-  padding-bottom: 1%;
-  position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  max-width: 100%;
-  height: auto;
 }
 .title-h1 {
   margin-top: 5%;
@@ -351,4 +349,14 @@ footer {
 }
 .about-container .team-member2 P {
   max-width: 50%;
+}
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+  padding-bottom: 1%;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  max-width: 100%;
+  height: auto;
 }
