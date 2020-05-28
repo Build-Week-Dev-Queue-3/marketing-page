@@ -274,8 +274,9 @@ footer {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  max-width: 60%;
+  max-width: 68%;
   padding-left: 23%;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .about-container {
@@ -284,7 +285,15 @@ footer {
 }
 .about-container .team-member {
   margin-top: 5%;
+  margin-left: 1%;
 }
 .about-container .team-member p {
+  max-width: 50%;
+}
+.about-container .team-member2 {
+  margin-top: 3%;
+  margin-right: 2%;
+}
+.about-container .team-member2 P {
   max-width: 50%;
 }
